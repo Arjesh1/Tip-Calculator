@@ -9,44 +9,52 @@
     <link rel="stylesheet" href="style.css">
     <title>Tip Calculator</title>
 </head>
-<body class="bg-dark">
+<body>
 
-    <div class="container bg-info mt-5 mb-4">
+  <div class="wrapper d-flex justify-content-center align-items-center">
 
+    <div class="container bg-info mt-5 mb-5">
+      <h1 class="text-center">Tip Calculator</h1>
+
+      <form id="tip-form">
         <div class="top-amount">
 
-            <h1 class="text-center">Tip Calculator</h1>
+           
+
+            <form id="tip-form"> 
             <div class="input-group mb-3">
                 <span class="input-group-text">$</span>
-                <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <input type="number" id="billAmt" class="form-control bill" aria-label="Amount (to the nearest dollar)">
                 <span class="input-group-text">.00</span>
               </div>
 
               <div class="input-group mb-3 ">
                 <span class="input-group-text ms-3 me-3 ">Tip</span>
-                <input type="range" class="form-range w-75 me-3 " id="customRange1">
-                <span class="input-group-text">Tip %</span>
+                <input type="range" value="0" class="form-range w-75 me-3 " id="customRange1">
+                <span class="input-group-text" id="tipOutput">Tip %</span>
               </div>
               
         </div>
+
+      </form>
 
         <div class="total mb-5">
         <h4 class="text-center">Result</h4>
         <div class="input-group mb-3 d-flex justify-content-center ">
             <span class="input-group-text w-25 " id="basic-addon1">Tip Amount</span>
-            <span class="input-group-text w-25" id="basic-addon1">123</span>
+            <span class="input-group-text w-25" id="tipAmt">123</span>
           </div>
 
           <div class="input-group mb-3 d-flex justify-content-center  ">
             <span class="input-group-text w-25 " id="basic-addon1">Total Amount</span>
-            <span class="input-group-text w-25" id="basic-addon1 ">123</span>
+            <span class="input-group-text w-25" id="totalAmt">123</span>
           </div>
 
         </div>
       </div>
 
 
-
+    </div>
 
 
     <script src="script.js"></script>
