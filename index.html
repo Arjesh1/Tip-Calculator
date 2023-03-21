@@ -28,6 +28,11 @@
                 <span class="input-group-text">.00</span>
               </div>
 
+              <div class="input-group mb-3">
+                <span class="input-group-text">No of People</span>
+                <input type="number" id="noPeople" class="form-control bill" aria-label="Amount (to the nearest dollar)">
+              </div>
+
               <div class="input-group mb-3 ">
                 <span class="input-group-text ms-3 me-3 ">Tip</span>
                 <input type="range" value="0" class="form-range w-75 me-3 " id="customRange1">
@@ -42,13 +47,27 @@
         <h4 class="text-center">Result</h4>
         <div class="input-group mb-3 d-flex justify-content-center ">
             <span class="input-group-text w-25 " id="basic-addon1">Tip Amount</span>
-            <span class="input-group-text w-25" id="tipAmt">123</span>
+            <span class="input-group-text w-25" id="tipAmt"> $ 123</span>
+          </div>
+
+          <div class="input-group mb-3 d-flex justify-content-center ">
+            <span class="input-group-text w-25 " id="basic-addon1">Tip Per Person</span>
+            <span class="input-group-text w-25" id="tipPer">$ 123</span>
           </div>
 
           <div class="input-group mb-3 d-flex justify-content-center  ">
             <span class="input-group-text w-25 " id="basic-addon1">Total Amount</span>
-            <span class="input-group-text w-25" id="totalAmt">123</span>
+            <span class="input-group-text w-25" id="totalAmt">$123</span>
           </div>
+
+          <div class="input-group mb-3 d-flex justify-content-center  ">
+            <button type="button"  class="btn btn-warning w-25">Tip Rating</button>
+            <span class="input-group-text w-25" id="rating">Good Tip</span>
+          </div>
+
+            
+
+
 
         </div>
       </div>
