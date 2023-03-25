@@ -4,9 +4,7 @@
 }
 
 body{
-    background-image: repeating-linear-gradient(45deg, #a3c3ff 0, #a3c3ff 2px, transparent 0, transparent 50%);
-background-size: 32px 32px;
-background-color: #656862;
+ background-image:  url("./Sprinkle.svg");
 }
 
 .wrapper{
@@ -14,6 +12,6 @@ background-color: #656862;
 }
 
 .container{
-
+border-radius: 15px;
     width: 50%;
 }
